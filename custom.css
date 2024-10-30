@@ -1,0 +1,181 @@
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left:0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.team .col-lg-4 {
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section-divider{ 
+    margin: 3rem 0;
+}
+
+.footer-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+@media (min-width: 1200px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .team {
+        margin-top: 2rem;
+    }
+}
+
+.navbar-brand{
+    margin-left: 19px;
+    color: darkgoldenrod;
+}
+
+.navbar-nav{
+    margin: 0;
+    align-items: center;
+}
+
+.navbar-nav a{
+    color: darkgoldenrod;
+}
+
+.btn{
+    color: white;
+    background-color: darkgoldenrod;
+    border-color: white;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: darkgoldenrod;
+    border-color: darkgoldenrod;
+    outline: none;
+}
+
+.carousel{
+    max-width: 900px;
+    margin: 0 auto;
+}
+#restaurant-heading{
+    color: rgb(143, 10, 10);
+}
+
+#pros{
+    color: #5c5c5c;
+}
+
+#cons{
+    color: rgb(143, 10, 10);
+}
+
+#review-two{
+    font-family: 'Segoe Script';
+}
+
+#newspaper{
+    color: rgb(143, 10, 10);
+}
+
+#newspaper-2{
+    color: rgb(143, 10, 10);
+
+}
+
+#newspaper-3{
+     color: rgb(143, 10, 10);
+}
+
+.carouselImg {
+  max-width: 600px; 
+  margin: auto;
+}
+
+
+.carousel-item img {
+  width: 100%;
+  height: 400px; 
+  object-fit: contain; 
+}
+
+.back-arrow {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: darkgoldenrod;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.back-arrow:hover {
+    color: silver;
+}
+
+h2 {
+    font-family: 'Segoe Script';
+    margin-bottom: 20px;
+}
+
+.ranking-list .list-group-item {
+    font-size: 1.1em;
+}
+
+/********* start up page *********/
+
+#splash-logo {
+    width: 333px; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+#loading{
+    font-size: 1.5rem;
+    position: absolute;
+    top: calc(50% + 100px);
+    left: 50%; 
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+#newspaperH-1{
+    font-family: 'Times New Roman';
+}
+
+#newspaperH-2{
+    font-family: 'Times New Roman';
+
+}
+
+#newspaperH-3{
+     font-family: 'Times New Roman';
+
+}
+
+#newspaper-heading-1{
+     font-family: 'Times New Roman';
+
+}
+
+#newspaper-heading-2{
+     font-family: 'Times New Roman';
+
+}
+
+#newspaper-heading-3{
+     font-family: 'Times New Roman';
+
+}
